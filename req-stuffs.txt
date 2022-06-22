@@ -1,4 +1,0 @@
-SpeechRecognition
-pydub
-progressbar2
-ffmpeg -> (in path)

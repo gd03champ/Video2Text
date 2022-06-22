@@ -1,0 +1,39 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Turbidity Classification</title>
+  
+</head>
+
+<body>
+
+<div>
+
+  <form action="/submit" method="post" enctype="multipart/form-data">
+
+    <label for="pwd">Upload Your Image :</label>
+    <input type="file" placeholder="Hours Studied"  name="my_image" id="pwd">
+    <button type="submit">Submit</button>
+
+  </form>
+
+	{% if prediction %}
+  <img src="{{img_path}}" height="400px" width="400px">
+	<h2> Your Prediction   : <i> {{prediction}} </i></h2>
+
+	{% endif %}
+
+</div>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
